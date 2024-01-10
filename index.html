@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCORE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="judul">PAPAN SCORE</h1>
+        <div class="papan-score">
+            <div class="team-a">
+                <span id="team-nameA">TEAM A</span>
+                <h1 id="score-a">0</h1>
+                <div class="point">
+                    <button id="minus" onclick="scoreMin()">-</button>
+                    <button id="plus" onclick="scorePlus()">+</button>
+                </div>
+                <input type="text"  id="teamA" placeholder="Input nama team">
+            </div>
+            
+            <div class="team-b">
+                <span id="team-nameB">TEAM B</span>
+                <h1 id="score-b">0</h1>
+                <div class="point">
+                    <button id="minus" onclick="scoreMinB()">-</button>
+                    <button id="plus" onclick="scorePlusB()">+</button>
+                </div>
+                <input type="text"  id="teamB" placeholder="Input nama team">
+            </div>
+        </div>
+        <a href="" id="reset">Reset Papan Score</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
